@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+button {
+    width: 80px;
+    height: 80px;
+}
+#calculadora {
+    background-color: rgb(130, 190, 154);
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 25px;
+}
+#escrit {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: powderblue;
+    width: 450px;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 15px;
+    border: solid black 1px;
+}
+#escrit p {
+    margin-right: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+#marca p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: blue;
+    text-align: right;
+    margin-right: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#fila0 {
+    display: flex;
+    justify-content: center;
+}
+#imatge {
+    margin-right: 20px;
+}
+#esborrar {
+    margin-left: 20px;
+}
+#esborrar button {
+    background-color: rgb(250, 127, 127);
+    border-radius: 15px;
+}
+img {
+    width: 200px;
+}
+#fila1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#fila1 button {
+    margin: 10px;
+    border-radius: 15px;
+}
+#fila2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#fila2 button {
+    margin: 10px;
+    border-radius: 15px;
+}
+#fila3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#fila3 button {
+    margin: 10px;
+    border-radius: 15px;
+}
+#fila4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#fila4 button {
+    margin: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.especial {
+    background-color: rgb(250, 250, 148);
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="cat">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <script type="text/javascript" src="js/calculadora.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <div id="calculadora">
+            <div>&nbsp;</div>
+            <div id="escrit"><p id="resultats">0</p></div>
+            <div id="marca"><p>CASI</p></div>
+            <div id="fila0">
+                <div id="imatge"><img src="img/imgcalc.png"></div>
+                <div id="esborrar"><button type="button" onclick="borrar()">C</button></div>
+            </div>
+            <div id="fila1">
+                <div id="numero7"><button type="button" onclick="botonNumero(7)">7</button></div>
+                <div id="numero8"><button type="button" onclick="botonNumero(8)">8</button></div>
+                <div id="numero9"><button type="button" onclick="botonNumero(9)">9</button></div>
+                <div id="signe/"><button type="button" class="especial" onclick="botonNumero('/')">/</button></div>
+            </div>
+            <div id="fila2">
+                <div id="numero4"><button type="button" onclick="botonNumero(4)">4</button></div>
+                <div id="numero5"><button type="button" onclick="botonNumero(5)">5</button></div>
+                <div id="numero6"><button type="button" onclick="botonNumero(6)">6</button></div>
+                <div id="signeX"><button type="button" class="especial" onclick="botonNumero('*')">X</button></div>
+            </div>
+            <div id="fila3">
+                <div id="numero1"><button type="button" onclick="botonNumero(1)">1</button></div>
+                <div id="numero2"><button type="button" onclick="botonNumero(2)">2</button></div>
+                <div id="numero3"><button type="button" onclick="botonNumero(3)">3</button></div>
+                <div id="signe-"><button type="button" class="especial" onclick="botonNumero('-')">-</button></div>
+            </div>
+            <div id="fila4">
+                <div id="numero0"><button type="button" onclick="botonNumero(0)">0</button></div>
+                <div id="signe,"><button type="button" onclick="botonNumero('.')">,</button></div>
+                <div id="signe="><button type="button" class="especial" onclick="igual()">=</button></div>
+                <div id="signe+"><button type="button" class="especial" onclick="botonNumero('+')">+</button></div>
+            </div>
+    </div>
+</body>
+</html>

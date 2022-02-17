@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="cat">
+<head>
+    <meta charset="UTF-8">
+    <title>trivial-api</title>   
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+<body onload=agafar()>
+    <div id="titol">
+        <img src="../img/logo.png">
+        <div id="contingut"></div>
+    </div>
+    <div id="trivialsencer">
+        <div id="primerapregunta">
+            <h1>1-Quina es la muntanya més alta?</h1>
+            <img src="../img/montaña.png">
+            <div>
+                <button value="true" onclick="resposta(this)">Everest</button>
+                <button value="false" onclick="resposta(this)">K2</button>
+            </div>
+            <div>
+                <button value="false" onclick="resposta(this)">Makalu</button>
+                <button value="false" onclick="resposta(this)">Manaslu</button>
+            </div>
+        </div>
+        <div id="segonapregunta">
+            <h1>2-Quin gènere de música no existeix?</h1>
+            <img src="../img/musica.png">
+            <div>
+                <button value="false" onclick="resposta(this)">Rock</button>
+                <button value="false" onclick="resposta(this)">Jazz</button>
+            </div>
+            <div>
+                <button value="true" onclick="resposta(this)">Lolipop</button>
+                <button value="false" onclick="resposta(this)">Raggaeton</button>
+            </div>
+        </div>
+        <div id="tercerapregunta">
+            <h1>3-Quin d'aquests aliments no es una frutia?</h1>
+            <img src="../img/fruta.png">
+            <div>
+                <button value="false" onclick="resposta(this)">Poma</button>
+                <button value="false" onclick="resposta(this)">Taronja</button>
+            </div>
+            <div>
+                <button value="true" onclick="resposta(this)">Pastanaga</button>
+                <button value="false" onclick="resposta(this)">Pera</button>
+            </div>
+        </div>
+        <div id="quartapregunta">
+            <h1>4-En quin dia d'Octubre de 1492 es va descobrir America?</h1>
+            <img src="../img/america.png">
+            <div>
+                <button value="true" onclick="resposta(this)">12</button>
+                <button value="false" onclick="resposta(this)">14</button>
+            </div>
+            <div>
+                <button value="false" onclick="resposta(this)">21</button>
+                <button value="false" onclick="resposta(this)">97</button>
+            </div>
+        </div>
+        <div id="quintapregunta">
+            <h1>5-Quin equip de futbol no es procedent de Espanya?</h1>
+            <img src="../img/futbol.png">
+            <div>
+                <button value="false" onclick="resposta(this)">Barcelona</button>
+                <button value="false" onclick="resposta(this)">Madrid</button>
+            </div>
+            <div>
+                <button value="true" onclick="resposta(this)">Juventus</button>
+                <button value="false" onclick="resposta(this)">Sevilla</button>
+            </div>
+        </div>
+    </div>
+    <script src="../js/trivial-api.js"></script>
+</body>
+</html>
